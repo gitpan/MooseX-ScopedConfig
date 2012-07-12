@@ -9,7 +9,9 @@ WriteMakefile
   'EXE_FILES' => [],
   'VERSION_FROM' => 'lib/MooseX/ScopedConfig.pm',
   'PREREQ_PM' => {
-                   'Test::More' => 0
+                   'Test::More' => 0,
+                   'Moose::Role' => 0,
+                   'Config::Scoped' => 0
                  }
 )
 ;

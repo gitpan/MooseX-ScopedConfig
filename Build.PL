@@ -13,6 +13,8 @@ my $builder = Module::Build->new(
     },
     requires => {
         'perl' => 5.006,
+        'Config::Scoped' => 0,
+        'Moose::Role' => 0
     },
     add_to_cleanup      => [ 'MooseX-ScopedConfig-*' ],
     create_makefile_pl => 'traditional',

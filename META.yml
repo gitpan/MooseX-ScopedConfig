@@ -16,9 +16,11 @@ name: MooseX-ScopedConfig
 provides:
   MooseX::ScopedConfig:
     file: lib/MooseX/ScopedConfig.pm
-    version: 0.01
+    version: 0.02
 requires:
+  Config::Scoped: 0
+  Moose::Role: 0
   perl: 5.006
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02

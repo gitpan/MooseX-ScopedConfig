@@ -26,6 +26,8 @@
       },
       "runtime" : {
          "requires" : {
+            "Config::Scoped" : "0",
+            "Moose::Role" : "0",
             "perl" : "5.006"
          }
       }
@@ -33,7 +35,7 @@
    "provides" : {
       "MooseX::ScopedConfig" : {
          "file" : "lib/MooseX/ScopedConfig.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -42,5 +44,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
