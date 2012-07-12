@@ -11,6 +11,7 @@ WriteMakefile
   'PREREQ_PM' => {
                    'Test::More' => 0,
                    'Moose::Role' => 0,
+                   'MooseX::ConfigFromFile' => 0,
                    'Config::Scoped' => 0
                  }
 )
